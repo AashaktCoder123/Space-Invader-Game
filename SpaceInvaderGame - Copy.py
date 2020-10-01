@@ -11,15 +11,15 @@ enemy_x = random.randint(-230, 230)
 score = -1
 enemy_score = 0
 difficulty = 20
-sound1 = pygame.mixer.Sound("Zoop.wav")
-sound2 = pygame.mixer.Sound("HandClap.wav")
+sound1 = pygame.mixer.Sound("Zoop - copy.wav")
+sound2 = pygame.mixer.Sound("HandClap - copy.wav")
 
 # Making the sprites and the screen
 # Making the screen
 win = turtle.Screen()
-win.bgpic("spaceinvaderbackground.gif")
-image = "spaceinvaderplayer.gif"
-image1 = "spaceinvaderenemy.gif"
+win.bgpic("spaceinvaderbackground - copy.gif")
+image = "spaceinvaderplayer - copy.gif"
+image1 = "spaceinvaderenemy - copy.gif"
 win.addshape(image1)
 win.addshape(image)
 win.setup(500, 500)
